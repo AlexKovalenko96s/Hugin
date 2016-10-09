@@ -1,0 +1,91 @@
+
+
+Marriages (bigamy allowed):
+
+Marrying Sick and Treat
+Marrying Dry_1 and Sick_1
+Marrying Dry and Sick
+
+
+Triangulation by minimum fill-in weight heuristic:
+Fill-in links and node numbering:
+
+    7 Loses_1
+    6 Loses
+    5 Dry_1
+Adding fill-in between Sick_1 and Dry
+    4 Dry
+    3 Sick_1
+    2 Sick
+    1 Treat
+
+
+Cliques:
+
+Clique 1, 3 members (Treat, Sick, Sick_1), table size = 8
+Clique 2, 3 members (Sick, Sick_1, Dry), table size = 8
+Clique 3, 3 members (Sick_1, Dry, Dry_1), table size = 8
+Clique 4, 3 members (Sick, Dry, Loses), table size = 8
+Clique 5, 3 members (Sick_1, Dry_1, Loses_1), table size = 8
+Total clique table size: 40
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+Cliques 2 and 1 linked, separated by {Sick, Sick_1} (table size = 4)
+Cliques 3 and 2 linked, separated by {Sick_1, Dry} (table size = 4)
+Cliques 4 and 2 linked, separated by {Sick, Dry} (table size = 4)
+Cliques 5 and 3 linked, separated by {Sick_1, Dry_1} (table size = 4)
+
+
+Checking tables for all nodes ...
+
+
+
+Assignment of potentials to cliques:
+
+Node Harv assigned to clique 1
+Node Cost assigned to clique 1
+Node Sick_1 assigned to clique 1
+Node Dry_1 assigned to clique 3
+Node Loses_1 assigned to clique 5
+Node Loses assigned to clique 4
+Node Dry assigned to clique 2
+Node Sick assigned to clique 1
+
+
+Checking tables for all nodes ...
+
+
+
+Sun Oct 09 17:27:00 2016
+
+
+Utilities for decisions:
+
+   Treat --
+      trear      -3487.000000
+      not        19677.000000
+
+
+Beliefs for chance nodes:
+
+   Sick_1 --
+      sick       0.465000
+      not        0.535000
+   Dry_1 --
+      dry        0.105000
+      not        0.895000
+   Loses_1 --
+      yes        0.478266
+      no         0.521733
+   Loses --
+      yes        0.183200
+      no         0.816800
+   Dry --
+      dry        0.100000
+      not        0.900000
+   Sick --
+      sick       0.100000
+      not        0.900000
